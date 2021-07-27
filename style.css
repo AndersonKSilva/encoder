@@ -1,0 +1,72 @@
+:root{
+    --fontTitle: 'Press Start 2P', cursive;
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+   background-color: #0B610B;
+    
+}
+.title{
+    font-family: var(--fontTitle);
+    font-size: 1.5rem;
+}
+ol{
+    text-align: left;
+}
+.instructions_todo{
+    margin-bottom: 25px;
+}
+.instructions_foots{
+    margin-left: -25px;
+}
+#mensagem{
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #011b01;
+    width: 99%;
+}
+.coders{
+    width: 80%;
+    margin: 0 auto;
+}
+#chave{
+    margin-top: 10px;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+    width: 99%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #011b01;
+}
+#code, #decode{
+    width: 49%;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+    box-shadow: 5px 5px 5px #011b01;
+}
+
+@media only screen and (min-width:765px) {
+    .instructions_container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .coders{
+        width: 45%;
+    }
+    #mensagem{
+        width: 99%;
+        font-size: 18px;
+    }
+    #code, #decode{
+        font-size: 20px;
+    }
+    body{
+        font-size: 25px;
+    }
+    #chave{
+        font-size: 20px;
+    }
+}
